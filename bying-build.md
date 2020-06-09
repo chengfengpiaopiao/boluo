@@ -13,7 +13,7 @@
 1. 修改**bying-config.build**中的versionCode，versionName。
 2. 修改**gradle.properties**
 	属性名 | 说明 | 默认值 | jekinsp配置
-    :----------- | :----------- | :-----------
+    :----------- | :----------- | :----------- | :-----------
     isModule         | 是否开启组件化        | false | 0(1:可用)
     isUseForPhone	 | 手机/模拟机（APK压缩策略）true代表打包的时候对x86等模拟器支持的库文件不加入到apk中| true | 1
     shouldMinify	|  是否开启混淆	| false | 1
