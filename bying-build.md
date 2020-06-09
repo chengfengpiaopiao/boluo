@@ -1,5 +1,7 @@
 # Bying技术文档
 
+**[项目官网 http://www.bying.io/](http://www.bying.io/)**
+
 ### 开发环境
     AndroidStudio3.3
     jdk8
@@ -12,7 +14,7 @@
 
 1. 修改**bying-config.build**中的versionCode，versionName。
 2. 修改**gradle.properties**
-	属性名 | 说明 | 默认值 | jekinsp配置
+	属性名 | 说明 | 默认值 | jekins配置
     :----------- | :----------- | :----------- | :-----------
     isModule         | 是否开启组件化        | false | 0(1:可用)
     isUseForPhone	 | 手机/模拟机（APK压缩策略）true代表打包的时候对x86等模拟器支持的库文件不加入到apk中| true | 1
