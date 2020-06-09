@@ -56,7 +56,10 @@
     4. 模块细化设计...
 
 ### 核心类
-    **ApplicationModule**用作全局子模块管理
-    **BDataBaseModel**数据库相关管理类
-    **TradingManager**交易管理类，针对不同币种设计不同的策略，新增交易类型，需新增策略。
+    ApplicationModule 用作全局子模块管理
+    BDataBaseModel 数据库相关管理类
+    TradingManager 交易管理类，针对不同币种设计不同的策略，新增交易类型，需新增策略。
+    MnemonicOpeManager 钱包生成管理类
+    EwmCreatorFactory 二维码生成工厂，包含二维码分片，EwmEncryptHelp加密压缩
+    EwmParserFactory 二维码解码解密工厂
     ...
