@@ -26,7 +26,7 @@
     native_yunpian_plugin 云片插件工程
     static 静态文件
     lib 目录
-    	appConfig.dart 全局配置信息，包含网络环境，代理设置，常量
+        appConfig.dart 全局配置信息，包含网络环境，代理设置，常量
         develop_header.dart 共同依赖库
         common目录 通用工具模块
             business/intercepters目录 业务拦截器
