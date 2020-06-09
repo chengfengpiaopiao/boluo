@@ -30,21 +30,16 @@
     JENKINS_TIME    | jekins打包时间用作修改打包后apk名称 | 空字符串 | 1
 
 3. 修改加固文件jiagubao-walle.bat
-    > 注意本地环境配置的SDK路径是否配置正确。
-
-    注意加固保账号和用户密码是否设置正确。
-
-    注意签名文件的路径。
-
-    注意加固保所需要的jar包目录和walle的jia包和脚本目录，以及多渠道配置文件所在的目录
+> 注意本地环境配置的SDK路径是否配置正确。
+注意加固保账号和用户密码是否设置正确。
+注意签名文件的路径。
+注意加固保所需要的jar包目录和walle的jia包和脚本目录，以及多渠道配置文件所在的目录
 
 4. 如何打普通测试apk？
-
-	配置好1-2步骤所需要的定制化参数，进入项目根目录，执行gradle assembleRelease。
+> 配置好1-2步骤所需要的定制化参数，进入项目根目录，执行gradle assembleRelease。
 
 5. 如何打加固混淆后的apk？
-
-	配置好1-3步骤后，在项目根目录，执行自定义的GradleTask命令--> **gradlew assembleRelease jiagubao_walle**
+> 配置好1-3步骤后，在项目根目录，执行自定义的GradleTask命令--> **gradlew assembleRelease jiagubao_walle**
 
 ### 项目结构简介
     1. 子系统划分，Bying区块链客户端子系统划分为轻钱包子系统，中心化微账户子系统，冷钱包子系统。
@@ -61,3 +56,4 @@
     **ApplicationModule**用作全局子模块管理
     **BDataBaseModel**数据库相关管理类
     **TradingManager**交易管理类，针对不同币种设计不同的策略，新增交易类型，需新增策略。
+    ...
